@@ -1,0 +1,56 @@
+author: 
+  - name: Joseph D Carpinelli
+    email: joey@carpinelli.email
+
+program: Fall 2024 PhD Program
+
+format:
+  html: 
+    date: today
+    date-format: long
+
+  docx: 
+    date: today
+    date-format: long
+
+  pdf: 
+    subtitle: "{{< meta description >}} {{< meta program >}}"
+    fontsize: 11pt
+    documentclass: extarticle
+    toc: false
+    colorlinks: true
+    urlcolor: "PaleGreen4!80!black"
+    include-in-header: 
+      text: |
+        \usepackage{geometry}
+        \usepackage{titling}
+        \usepackage{fancyhdr}
+        \usepackage{etoolbox}
+        \usepackage{lastpage}
+        \usepackage{hyperref}
+        \usepackage{xcolor}
+        \usepackage{setspace}
+        \usepackage{comment}
+        \usepackage{lmodern}
+        \usepackage{multicol}
+
+        \let\articlesection\section
+        \renewcommand{\section}[1]{\articlesection{\textsc{#1}}}
+
+        \setlength{\droptitle}{-1in}
+
+        \pretitle{\begin{center}\Huge\scshape}
+        \posttitle{\end{center}}
+        \preauthor{\rule{\textwidth}{1pt}\begin{center}\large\iffalse}
+        \postauthor{ \hfill {{< meta program >}} \end{center}\fi}
+        \predate{\begin{center}\large\iffalse}
+        \postdate{\end{center}{\fi}}
+      
+        \renewcommand{\headrulewidth}{0pt}
+        \fancyhf{}
+        \fancypagestyle{plain}{
+          \fancyhf{}
+          \lfoot{\textcolor{darkgray}{\large \theauthor}}
+          \rfoot{\textcolor{darkgray}{\large Page \thepage/\pageref*{LastPage}}}
+        }
+        

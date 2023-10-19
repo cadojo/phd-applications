@@ -1,0 +1,32 @@
+project:
+  type: website
+
+website:
+  title: "PhD Application Letters"
+  search: false
+  site-url: phd.loopy.codes
+  navbar: 
+    right: 
+      - text: Thank you!
+
+format:
+  html:
+    toc: true
+    toc-depth: 4
+    mainfont: "'Computer Modern', sans-serif"
+    fontsize: 14pt
+    link-external-icon: true
+    link-external-newwindow: true
+    email-obfuscation: references
+    template-partials: 
+      - metadata.html
+    css: formatting/styles.css
+    theme: 
+      light: [ pulse,  "formatting/common.scss", "formatting/light.scss" ]
+
+
+
+
+
+
+
