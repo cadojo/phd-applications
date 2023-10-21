@@ -1,4 +1,19 @@
-All of the scientific software I write is published on GitHub 
+In 2021, I released all of my astrodynamics research, and much of the 
+functionality covered by my astrodynamics coursework, in a single Julia
+package: 
+[`GeneralAstrodynamics.jl`](https://github.com/cadojo/GeneralAstrodynamics.jl). 
+I have since corrected common beginner mistakes, such as over-relying on 
+multiple dispatch. Throughout this effort, I have paused to develop
+new astrodynamics packages; of these, I have 
+found [`SPICEKernels.jl`](https://github.com/cadojo/SPICEKernels.jl) to be 
+the most useful. Professionally, scientific software has been critical 
+to my role as an integrated GN&C analyst in the Artemis Program. I have 
+developed several internal Python packages to assist with nonlinear 
+analysis and verification, including a novel 6DOF kinematics simulator.
+
+All of the scientific software I write personally is published on GitHub 
 under the username [`@cadojo`](https://github.com/cadojo), and is
-linked-to and summarized at my personal website: 
-[`loopy.codes`](https://loopy.codes/packages).
+linked-to and summarized by my personal website: 
+[`loopy.codes`](https://loopy.codes/packages). 
+I have enjoyed applying scientific software to human space exploration
+projects, and I am excited to apply these skills to physical discovery.

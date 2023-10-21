@@ -19,12 +19,6 @@ of Physics' PhD program; thank you for your consideration.
 
 {{< include /_src/research-experience.qmd >}}
 
-:::{when-format="pdf"}
-
-{{< pagebreak >}}
-
-:::
-
 # Scientific Computing
 
 {{< include /_src/scientific-computing.qmd >}}
@@ -34,12 +28,14 @@ of Physics' PhD program; thank you for your consideration.
 
 {{< include /_src/research-aspirations.qmd >}}
 
+
+
 # Future Plans
 
-{{< include /_src/forward-work.qmd >}}
+{{< include /_src/future-plans.qmd >}}
 
-:::{when-format="pdf"}
+I hope I have the opportunity to learn from the excellent scientists
+and software developers within MIT. Thank you
+for the opportunity to apply, your time, and your consideration. 
 
-{{< pagebreak >}}
-
-:::
+\clearpage

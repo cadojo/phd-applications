@@ -44,7 +44,7 @@ format:
         \renewcommand{\href}[2]{\builtinhref{#1}{\bfseries#2}}
 
         \titleformat{\section}{\Large\bfseries\scshape\color{PaleGreen4!75!black}}{}{0cm}{}
-        \titlespacing\section{0pt}{1em plus 4pt minus 2pt}{0em plus 2pt minus 2pt}
+        \titlespacing\section{0pt}{0.25em plus 4pt minus 2pt}{0.25em plus 2pt minus 2pt}
 
         \setlength{\droptitle}{-1in}
 

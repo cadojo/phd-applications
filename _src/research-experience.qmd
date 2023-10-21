@@ -7,38 +7,40 @@ and interdisciplinary research.
 The University of Maryland's Space Systems Lab
 ([SSL](https://ssl.umd.edu)) develops and maintains an 8DOF serial manipulator 
 ([Ranger](https://ssl.umd.edu/ranger)) for satellite servicing and dexterous 
-manipulation research. I independently developed the final 
-components of the lab's core robot software following a total rewrite: 
-interfaces (`C++` templates) and implementations for all kinematic solvers 
-and Cartesian controllers. One kinematic
+manipulation research. I independently developed interfaces (`C++` templates) 
+and implementations for kinematic solvers and Cartesian controllers. One
 [solver's](https://onlinelibrary.wiley.com/doi/abs/10.1002/1097-4563(200009)17:9%3C453::AID-ROB1%3E3.0.CO;2-A)
-implementation introduced performance problems: the computation required 
-several intermediate-Jacobian
-solutions, which I initially solved-for iteratively. After contributing the 
+implementation introduced a small performance hurdle: the computation required 
+several intermediate-Jacobian solutions, which I initially solved-for iteratively. 
+After contributing the 
 required [fixes](https://github.com/JuliaSymbolics/Symbolics.jl/pull/72), 
 I used Julia's [`Symbolics.jl`](https://symbolics.juliasymbolics.org/)
-to print analytical intermediate-Jacobian solutions to performant 
+to print analytical intermediate-Jacobian solutions to performant, 
 non-allocating `C++` functions; as a result, each intermediate-Jacobian 
 solve's performance improved by a factor of two. This experience at SSL,
 and others, taught me how to write performant software for high-speed 
 computations. Graduate course projects, under Mr. Barbee's guidance, showed
-me how computation extends to physical discovery.
+me how computation extends to discovery across fields.
 
 For my final M.S. course's term project, I replicated halo orbit
 and invariant manifold computations as summarized by Megan Rund's 
 [thesis](https://digitalcommons.calpoly.edu/theses/1853/) on low-cost
-interplanetary transfer techniques. Intersections of manifolds can provide 
-low-cost transfers across the solar system; NASA has labeled them 
-[_Interplanetary Superhighways_](https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/51594).
-I [released](https://github.com/cadojo/CR3BP-Manifold-Research) 
-initial conditions for over 130k periodic orbits near planets within our 
-solar system, and published orbit and manifold solver codes to open source 
-[Julia packages](https://github.com/cadojo/GeneralAstrodynamics.jl).
+interplanetary transfer techniques. Multiple flavors of the halo orbit 
+solver algorithm existed in literature, but I found no guidance in selecting 
+one flavor over another. My project delivered a decision tree for selecting
+which flavor of the differential correction algorithm to use, depending on 
+the desired orbit characteristics, alongside 
+[open source Julia packages](https://github.com/cadojo/GeneralAstrodynamics.jl),
+and over 130k 
+[initial conditions](https://github.com/cadojo/CR3BP-Manifold-Research)
+for periodic orbits in three-body dynamics. 
 
-
-
-<!-- 
-Literature presented several flavors of the iterative halo orbit solver 
-with little guidance on which flavor to choose; I found one of the flavors
-to be compatible with three-dimensional orbits, while the other flavor was 
-exclusively capable of solving for two-dimensional orbits.   -->
+Computation had revealed true low-energy paths in the 
+solar system; I was exhilarated, and I sought out more opportunities to learn about computational research. After 
+[presenting](https://youtu.be/WnvKaUsGv8w)
+the foundations of my project at JuliaCon 2021, I was added to the
+[`JuliaSpace`](https://github.com/JuliaSpace) GitHub organization. I was 
+later invited to a [seminar](https://juliareach.github.io/juliareach-days-3/) 
+on dynamical reachability. As I worked full-time at NASA,
+I continued to develop and release open source scientific software
+personally.

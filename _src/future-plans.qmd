@@ -1,0 +1,6 @@
+I am exploring general astrophysical concepts through the 
+[Big Orange Book](https://www.cambridge.org/highereducation/books/an-introduction-to-modern-astrophysics), and galactic dynamics 
+specifically through Dr. Body's online [textbook](https://galaxiesbook.org) 
+draft. Regardless of the path of my research career, I look forward to 
+exploring concepts through computation, and sharing what I learn with 
+others through open source scientific software.
