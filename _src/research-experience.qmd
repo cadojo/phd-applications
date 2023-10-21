@@ -1,28 +1,44 @@
-As a graduate aerospace engineering student, I developed performant kinematic
-solvers and Cartesian controllers for the Space Systems Lab, and I explored 
-invariant manifold intersections in Circular Restricted Three Body dynamics
-for interplanetary transfer applications. The former brought me into the 
-weeds of performant, scientific `C++`, and the latter introduced me to 
-computational discovery. 
+My graduate research assistant experience under Dr. Dave Akin brought me 
+into the weeds of constrained, performant software development. My final
+aerospace engineering course, Interplanetary Navigation & 
+Guidance with Mr. Brent Barbee, introduced me to computational discovery
+and interdisciplinary research.
 
-As a graduate research assistant advised by Dr. Dave Akin at the 
-University of Maryland, I led all software development efforts and 
-independently built abstract interfaces (`C++` templates)
-and concrete implementations for kinematic solvers and performant 
-controllers at the [Space Systems Lab](https://ssl.umd.edu) (SSL). General
-[iterative solvers](https://orocos.org) lacked singularity avoidance 
-for SSL's primary robotic arm: an 8DOF serial manipulator which served
-as a test bed for satellite servicing and dexterous manipulation research. 
-I implemented Dr. Carignan's previously published 
-[inverse-kinematics algorithm](https://onlinelibrary.wiley.com/doi/abs/10.1002/1097-4563(200009)17:9%3C453::AID-ROB1%3E3.0.CO;2-A), which reduced workspace
-singularities. The algorithm required many intermediate Jacobian solves; I 
-improved the time-performance of these computations by a factor of two by 
-using Julia's computer algebra system, 
-[`Symbolics.jl`](https://symbolics.juliasymbolics.org/), to print
-analytical Jacobian solutions to `C++` functions. I wrote a general 
-(internal) `ManipulatorKinematics.jl` package, which provided analytical
-forward-kinematics and Jacobian calculations for any serial manipulator,
-and I contributed the required computer algebra system 
-[fixes](https://github.com/JuliaSymbolics/Symbolics.jl/pull/72) to 
-`Symbolics.jl`.
+The University of Maryland's Space Systems Lab
+([SSL](https://ssl.umd.edu)) develops and maintains an 8DOF serial manipulator 
+([Ranger](https://ssl.umd.edu/ranger)) for satellite servicing and dexterous 
+manipulation research. I independently developed the final 
+components of the lab's core robot software following a total rewrite: 
+interfaces (`C++` templates) and implementations for all kinematic solvers 
+and Cartesian controllers. One kinematic
+[solver's](https://onlinelibrary.wiley.com/doi/abs/10.1002/1097-4563(200009)17:9%3C453::AID-ROB1%3E3.0.CO;2-A)
+implementation introduced performance problems: the computation required 
+several intermediate-Jacobian
+solutions, which I initially solved-for iteratively. After contributing the 
+required [fixes](https://github.com/JuliaSymbolics/Symbolics.jl/pull/72), 
+I used Julia's [`Symbolics.jl`](https://symbolics.juliasymbolics.org/)
+to print analytical intermediate-Jacobian solutions to performant 
+non-allocating `C++` functions; as a result, each intermediate-Jacobian 
+solve's performance improved by a factor of two. This experience at SSL,
+and others, taught me how to write performant software for high-speed 
+computations. Graduate course projects, under Mr. Barbee's guidance, showed
+me how computation extends to physical discovery.
 
+For my final M.S. course's term project, I replicated halo orbit
+and invariant manifold computations as summarized by Megan Rund's 
+[thesis](https://digitalcommons.calpoly.edu/theses/1853/) on low-cost
+interplanetary transfer techniques. Intersections of manifolds can provide 
+low-cost transfers across the solar system; NASA has labeled them 
+[_Interplanetary Superhighways_](https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/51594).
+I [released](https://github.com/cadojo/CR3BP-Manifold-Research) 
+initial conditions for over 130k periodic orbits near planets within our 
+solar system, and published orbit and manifold solver codes to open source 
+[Julia packages](https://github.com/cadojo/GeneralAstrodynamics.jl).
+
+
+
+<!-- 
+Literature presented several flavors of the iterative halo orbit solver 
+with little guidance on which flavor to choose; I found one of the flavors
+to be compatible with three-dimensional orbits, while the other flavor was 
+exclusively capable of solving for two-dimensional orbits.   -->

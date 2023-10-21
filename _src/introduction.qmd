@@ -1,8 +1,6 @@
 I am an aerospace engineer and scientific software developer 
-who is passionate about computational dynamics. My aerospace 
-dynamics & controls research emphasized computation, and I 
-have been fortunate to have had the opportunity to exercise 
-this background as an integrated GN&C analyst to expand 
-human space exploration at NASA. Now, I aspire to grow as a 
-computational physicist, and expand astrophysical discovery 
-through computational research. 
+who is passionate about computational dynamics. I have been 
+fortunate to have had the opportunity to exercise this 
+background to expand human space exploration at NASA. 
+Now, I aspire to grow as a computational physicist, and 
+expand astrophysical discovery through research. 
