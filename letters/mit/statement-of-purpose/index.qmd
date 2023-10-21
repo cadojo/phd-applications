@@ -1,0 +1,47 @@
+---
+title: Statement of Purpose
+description: MIT Department of Physics
+---
+
+# Introduction 
+
+{{< include /_src/introduction.qmd >}}
+
+As I continue to learn about open topics in astrophysics research,
+I am particularly drawn to research areas relating to galactic 
+dynamics, large scale structure formation, and gravitational wave
+dynamics. I hope to be considered for graduate advisement by 
+Dr. Vogelsberger, Dr. Necib, and Dr. Hughes. I believe my research
+experience, and scientific software development experience, would 
+quickly enable productive contributions to their research teams.
+I am grateful for the opportunity to apply to the MIT Department
+of Physics' PhD program; thank you for your time and consideration.
+
+# Research Experience
+
+{{< include /_src/research-experience.qmd >}}
+
+:::{when-format="pdf"}
+
+{{< pagebreak >}}
+
+:::
+
+# Scientific Computing
+
+{{< include /_src/scientific-computing.qmd >}}
+
+
+# Research Aspirations
+
+{{< include /_src/research-aspirations.qmd >}}
+
+# Forward Work
+
+{{< include /_src/forward-work.qmd >}}
+
+:::{when-format="pdf"}
+
+{{< pagebreak >}}
+
+:::

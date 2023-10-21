@@ -5,6 +5,7 @@ website:
   title: "PhD Application Letters"
   search: false
   site-url: phd.loopy.codes
+  favicon: images/manifolds-seaborn_colorblind.png
   navbar: 
     right: 
       - text: Thank you!

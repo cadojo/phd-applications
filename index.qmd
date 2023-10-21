@@ -1,7 +1,12 @@
 ---
 title: "Application Letters for Fall 2024 Computational Astrophysics Programs"
+title-block-banner: false
+
+aliases: 
+  - letters
+  
 listing:
-  contents: org
+  contents: letters
   sort: "title desc"
   type: table
   fields: 
@@ -15,7 +20,6 @@ listing:
   categories: false
   sort-ui: false
   filter-ui: false
-title-block-banner: false
 ---
 
 Thank you for reading! The table below provides all of the letters I am writing for 

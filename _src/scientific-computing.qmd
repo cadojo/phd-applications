@@ -1,0 +1,4 @@
+All of the scientific software I write is published on GitHub 
+under the username [`@cadojo`](https://github.com/cadojo), and is
+linked-to and summarized at my personal website: 
+[`loopy.codes`](https://loopy.codes/packages).

@@ -1,0 +1,28 @@
+As a graduate aerospace engineering student, I developed performant kinematic
+solvers and Cartesian controllers for the Space Systems Lab, and I explored 
+invariant manifold intersections in Circular Restricted Three Body dynamics
+for interplanetary transfer applications. The former brought me into the 
+weeds of performant, scientific `C++`, and the latter introduced me to 
+computational discovery. 
+
+As a graduate research assistant advised by Dr. Dave Akin at the 
+University of Maryland, I led all software development efforts and 
+independently built abstract interfaces (`C++` templates)
+and concrete implementations for kinematic solvers and performant 
+controllers at the [Space Systems Lab](https://ssl.umd.edu) (SSL). General
+[iterative solvers](https://orocos.org) lacked singularity avoidance 
+for SSL's primary robotic arm: an 8DOF serial manipulator which served
+as a test bed for satellite servicing and dexterous manipulation research. 
+I implemented Dr. Carignan's previously published 
+[inverse-kinematics algorithm](https://onlinelibrary.wiley.com/doi/abs/10.1002/1097-4563(200009)17:9%3C453::AID-ROB1%3E3.0.CO;2-A), which reduced workspace
+singularities. The algorithm required many intermediate Jacobian solves; I 
+improved the time-performance of these computations by a factor of two by 
+using Julia's computer algebra system, 
+[`Symbolics.jl`](https://symbolics.juliasymbolics.org/), to print
+analytical Jacobian solutions to `C++` functions. I wrote a general 
+(internal) `ManipulatorKinematics.jl` package, which provided analytical
+forward-kinematics and Jacobian calculations for any serial manipulator,
+and I contributed the required computer algebra system 
+[fixes](https://github.com/JuliaSymbolics/Symbolics.jl/pull/72) to 
+`Symbolics.jl`.
+
