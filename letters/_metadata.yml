@@ -20,12 +20,14 @@ format:
     urlcolor: "PaleGreen4!75!black"
     geometry: 
       - margin=1in
+      - nohead
+      - nomarginpar
     include-before-body: 
       text: |
         \begin{multicols}{2}
     include-after-body: 
       text: |
-        \end{multicols}
+        \clearpage\end{multicols}%
     include-in-header: 
       text: |
         \usepackage{titling}
@@ -44,8 +46,9 @@ format:
         \renewcommand{\href}[2]{\builtinhref{#1}{\bfseries#2}}
 
         \titleformat{\section}{\Large\bfseries\scshape\color{PaleGreen4!75!black}}{}{0cm}{}
-        \titlespacing\section{0pt}{0.25em plus 4pt minus 2pt}{0.25em plus 2pt minus 2pt}
+        \titlespacing\section{0pt}{0.25\baselineskip plus 2pt minus 2pt}{0.25\baselineskip plus 2pt minus 2pt}
 
+        \setlength{\parskip}{0.5\baselineskip}
         \setlength{\droptitle}{-1in}
 
         \pretitle{\begin{center}\Huge\bfseries\scshape\color{PaleGreen4!75!black}}

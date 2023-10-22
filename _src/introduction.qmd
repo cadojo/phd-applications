@@ -1,6 +1,7 @@
 I am an aerospace engineer and scientific software developer 
 who is passionate about computational dynamics. I have been 
 fortunate to have had the opportunity to exercise this 
-background to expand human space exploration at NASA. 
-Now, I aspire to grow as a computational physicist, and 
-expand astrophysical discovery through research. 
+background in support of human space exploration projects 
+at NASA. I aspire to learn as much as possible about the 
+physical world, and work to expand our knowledge through
+astrophysical dynamics research. 
