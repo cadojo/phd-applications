@@ -1,15 +1,16 @@
-I published all of my astrodynamics research codes as a series of Julia
-[packages](https://github.com/cadojo/GeneralAstrodynamics.jl), and I have 
+All of my astrodynamics research codes are available as a series of Julia
+[packages](https://github.com/cadojo/GeneralAstrodynamics.jl). I have 
 enjoyed developing other scientific convenience packages in spare time, such 
 as [`SPICEKernels.jl`](https://github.com/cadojo/SPICEKernels.jl).
-All my open source software can be found on [GitHub](https://github.com/cadojo) and
-my personal website: [`loopy.codes`](https://loopy.codes/packages). 
+My open source software projects are hosted at
+[`github.com/cadojo`](https://github.com/cadojo), 
+and described on my personal website: [`loopy.codes`](https://loopy.codes/packages). 
 Professionally, scientific software has been critical 
 to my role as an integrated GN&C analyst in the Artemis Program. 
-I routinely execute massively parallel monte-carlo simulations on NASA 
-HPC clusters, and analyze that data to better understand emergent dynamical
-conditions encountered during simulated atmospheric flight; in 2022, I 
-independently wrote over 150 pages of technical reports which documented 
-several such investigations. While I have enjoyed contributing to human
+I routinely execute thousands of monte-carlo simulations on 
+HPC clusters, and analyze that data to better understand dynamical conditions
+which emerge during simulated atmospheric flight; in 2022, I 
+wrote over 150 pages of technical reports which documented 
+such investigations. While I have enjoyed contributing to human
 space exploration projects, and I am eager to apply similar computational 
-investigations to open, scientific research.
+investigations to scientific research.

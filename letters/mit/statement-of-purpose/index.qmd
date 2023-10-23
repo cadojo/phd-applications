@@ -14,7 +14,7 @@ I hope to be considered for graduate advisement by
 [Dr. Necib](https://physics.mit.edu/faculty/lina-necib/), and 
 [Dr. Frebel](https://physics.mit.edu/faculty/anna-frebel/). 
 I am eager to apply the skills I have gained through computational research, 
-scientific software development, and large-scale dynamical studies 
+scientific software development, and large-scale dynamical studies, 
 to astrophysics research projects within MIT's Department of Physics, and the
 Kavli Institute.
 
@@ -31,7 +31,7 @@ Kavli Institute.
 I believe that my simulation studies at NASA echo MIT's massive 
 astrophysical simulation projects, i.e. [`IllustrisTNG`](https://www.tng-project.org).
 While different in scope and purpose, both aim to study emergent dynamical 
-consequences of known or predicted physical laws. At NASA, I frequently disable specific
+consequences of known or hypothesized physical laws. At NASA, I frequently disable specific
 dynamical models to determine their effect on simulated vehicle trajectories. 
 I have been encouraged to find similar methods used in astrophysics research,
 such as Josh Borrow's [characterization](https://arxiv.org/pdf/2212.03255.pdf) of the 

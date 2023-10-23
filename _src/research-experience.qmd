@@ -8,7 +8,7 @@ and implementations for kinematic solvers and Cartesian controllers. One
 [solver's](https://onlinelibrary.wiley.com/doi/abs/10.1002/1097-4563(200009)17:9%3C453::AID-ROB1%3E3.0.CO;2-A)
 implementation introduced a performance hurdle: the computation required 
 several intermediate-Jacobian solutions, which I initially solved-for iteratively. 
-I substantially improved the time-performance of intermediate-Jacobian computation by 
+I substantially improved the time-performance of each intermediate-Jacobian solve by 
 using Julia's [`Symbolics.jl`](https://symbolics.juliasymbolics.org/)
 to print analytical Jacobian solutions to performant, 
 non-allocating `C++` functions; I contributed the required `build_function` target 
