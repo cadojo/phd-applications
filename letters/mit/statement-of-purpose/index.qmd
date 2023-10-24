@@ -7,7 +7,7 @@ description: MIT Department of Physics
 
 {{< include /_src/hook.qmd >}}
 
-I aspire to apply dynamical 
+As an aspiring computational scientist, I hope to use dynamical
 analysis techniques to explain the processes behind galactic dynamics, the 
 universe's large scale structure, and stellar formation. 
 I am excited to apply for the opportunity to learn from leaders in the 
