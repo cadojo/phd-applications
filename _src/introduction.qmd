@@ -1,7 +1,4 @@
-I am an aerospace engineer and scientific software developer 
-who is passionate about computational dynamics. I have been 
-fortunate to have had the opportunity to exercise this 
-background in support of human space exploration projects 
-at NASA. I aspire to learn as much as possible about the 
-physical world, and work to expand our knowledge through
-astrophysical dynamics research. 
+Computation links my graduate astrodynamics research, my experience writing 
+performant `C++` for dexterous manipulators, and my simulation studies at NASA.
+I believe these skills will translate producgively to computational astrophysics
+research. Thank you for your time and consideration.

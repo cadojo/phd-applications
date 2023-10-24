@@ -1,35 +1,31 @@
-My graduate research assistant experience under Dr. Dave Akin brought me 
+As Dr. Dave Akin's core robot software lead, I lived in the 
 into the weeds of constrained, performant software development. 
 The University of Maryland's Space Systems Lab
 ([SSL](https://ssl.umd.edu)) develops and maintains an 8DOF serial manipulator 
 ([Ranger](https://ssl.umd.edu/ranger)) for satellite servicing and dexterous 
-manipulation research. I independently developed interfaces (`C++` templates) 
-and implementations for kinematic solvers and Cartesian controllers. One
-[solver's](https://onlinelibrary.wiley.com/doi/abs/10.1002/1097-4563(200009)17:9%3C453::AID-ROB1%3E3.0.CO;2-A)
-implementation introduced a performance hurdle: the computation required 
-several intermediate-Jacobian solutions, which I initially solved-for iteratively. 
+manipulation research. My implementation of one of Ranger's kinematic
+[solvers](https://onlinelibrary.wiley.com/doi/abs/10.1002/1097-4563(200009)17:9%3C453::AID-ROB1%3E3.0.CO;2-A)
+produced a performance hurdle: the computation required 
+several intermediate-Jacobian solutions per-cycle, which I initially solved-for iteratively. 
 I substantially improved the time-performance of each intermediate-Jacobian solve by 
 using Julia's [`Symbolics.jl`](https://symbolics.juliasymbolics.org/)
 to print analytical Jacobian solutions to performant, 
-non-allocating `C++` functions; I contributed the required `build_function` target 
+non-allocating `C++` functions; along the way, I contributed the required 
 [fixes](https://github.com/JuliaSymbolics/Symbolics.jl/pull/72) to 
-`Symbolics.jl`. This experience at SSL,
-and others, taught me to write performant software for computationally demanding
-applications. Graduate course projects, under Mr. Barbee's guidance, showed
-me how computation can extend to physical discovery.
+`Symbolics.jl`. SSL projects taught me to write performant software for computationally 
+demanding applications. During graduate course projects, under Mr. Barbee's guidance, 
+I learned how computation extends into discovery.
 
 For the term project of my graduate Interplanetary Navigation & Guidance course, 
 I replicated halo orbit and invariant manifold computations as summarized by Megan Rund's 
 [thesis](https://digitalcommons.calpoly.edu/theses/1853/) on low-cost
-interplanetary transfer techniques. Multiple flavors of the chosen halo orbit 
-solver algorithm existed in literature, but I found no guidance in selecting 
-one flavor over another. My project delivered a decision tree which mapped desired
-orbit characteristics to compatible flavors of differential correction, alongside
+interplanetary transfer techniques. After failing to find guidance in literature
+for selecting from flavors of a particular halo orbit solver, I delivered a 
+decision tree which mapped desired
+orbit characteristics to compatible flavors of differential correction, several 
 open source Julia [packages](https://github.com/cadojo/GeneralAstrodynamics.jl),
 and over 130k [initial conditions](https://github.com/cadojo/CR3BP-Manifold-Research)
-for periodic orbits. Julia's dynamic qualities allowed me to quickly explore the emergent
-consequences of perturbation parameter changes, and eventually find intersections between 
-three-body manifolds. I was thrilled to have used computation to find true 
+for periodic orbits. I was thrilled to have used computation to find true 
 low-energy paths through the  solar system, and I soon discovered a vibrant community
 of like-minded scientific software developers. After [presenting](https://youtu.be/WnvKaUsGv8w)
 the foundations of my project at JuliaCon 2021, I was added to the

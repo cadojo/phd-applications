@@ -6,10 +6,9 @@ My open source software projects are hosted at
 [`github.com/cadojo`](https://github.com/cadojo), 
 and described on my personal website: [`loopy.codes`](https://loopy.codes/packages). 
 Professionally, scientific software has been critical 
-to my role as an integrated GN&C analyst in the Artemis Program. 
-I routinely execute thousands of monte-carlo simulations on 
-HPC clusters, and analyze that data to better understand dynamical conditions
-which emerge during simulated atmospheric flight; in 2022, I 
+to my role as an integrated GN&C analyst in NASA's Artemis Program. 
+I have used linear analysis, model reduction, and parameter sweeps to explain & improve
+results in tens of thousands of monte-carlo simulations. In 2022, I 
 wrote over 150 pages of technical reports which documented 
 such investigations. While I have enjoyed contributing to human
 space exploration projects, and I am eager to apply similar computational 

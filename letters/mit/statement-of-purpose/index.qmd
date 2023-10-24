@@ -5,18 +5,19 @@ description: MIT Department of Physics
 
 # Introduction
 
-{{< include /_src/introduction.qmd >}}
+{{< include /_src/hook.qmd >}}
 
-I am particularly interested in topics relating to galactic 
-dynamics, large scale structure formation, and stellar formation. 
+I aspire to apply dynamical 
+analysis techniques to explain the processes behind galactic dynamics, the 
+universe's large scale structure, and stellar formation. 
+I am excited to apply for the opportunity to learn from leaders in the 
+field of astrophysics at MIT's Department of Physics.
 I hope to be considered for graduate advisement by 
 [Dr. Vogelsberger](https://physics.mit.edu/faculty/mark-vogelsberger/), 
 [Dr. Necib](https://physics.mit.edu/faculty/lina-necib/), and 
 [Dr. Frebel](https://physics.mit.edu/faculty/anna-frebel/). 
-I am eager to apply the skills I have gained through computational research, 
-scientific software development, and large-scale dynamical studies, 
-to astrophysics research projects within MIT's Department of Physics, and the
-Kavli Institute.
+
+{{< include /_src/introduction.qmd >}}
 
 # Research Experience
 
@@ -31,14 +32,15 @@ Kavli Institute.
 I believe that my simulation studies at NASA echo MIT's massive 
 astrophysical simulation projects, i.e. [`IllustrisTNG`](https://www.tng-project.org).
 While different in scope and purpose, both aim to study emergent dynamical 
-consequences of known or hypothesized physical laws. At NASA, I frequently disable specific
+consequences of known or hypothesized physical laws. At NASA, I frequently change specific
 dynamical models to determine their effect on simulated vehicle trajectories. 
 I have been encouraged to find similar methods used in astrophysics research,
 such as Josh Borrow's [characterization](https://arxiv.org/pdf/2212.03255.pdf) of the 
 impact of the epoch of reionization on simulated galactic formation. As an astrophysics 
 student, I hope to discuss similar such studies with my advisor, and work to characterize 
-the sensitivity of astrophysical phenomena to other dynamical effects, i.e. galaxy formation's
-sensitivity to rates of stellar formation and $\text{Lyman-}\alpha$ radiation dynamics. 
+the sensitivity of astrophysical phenomena to other categories of dynamics, i.e. 
+further quantifying galaxy formation's sensitivity to rates of stellar formation and 
+$\text{Lyman-}\alpha$ radiation dynamics. 
 
 In my view, cosmological & galactic simulation codes have two distinct roles: 
 fast implementations for research, and convenient interfaces for education. 
@@ -49,10 +51,11 @@ astrophysics codes to help undergraduate and early-graduate students learn
 foundational concepts through computational exploration. Julia, and its package ecosystem,
 provide excellent tools for such a computational playground. MIT's 
 [Julia Lab](https://julia.mit.edu) is revolutionizing scientific computing, and I am 
-interested in applying their novel codes to astrophysical contexts. Might exploratory 
-studies with [Dr. Rackauckas'](https://chrisrackauckas.com) unique surrogate 
-modeling & differentiable simulation codes help scope future high-fidelity 
-simulation studies? If an advisor found similar ideas promising, I would welcome such 
+interested in applying their novel codes to astrophysical contexts. Julia's ease of 
+expression, in combination with [Dr. Rackauckas'](https://chrisrackauckas.com) 
+surrogate modeling & differentiable simulation codes, may allow for faster 
+cosmological & galactic model exploration.
+If an advisor found similar ideas promising, I would welcome such 
 interdisciplinary research opportunities. I have been delighted to find astrophysics
 research methods which align with my technical skill set: dynamical analysis and 
 scientific computing. I look forward to learning more about our universe, and growing
