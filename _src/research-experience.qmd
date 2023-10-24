@@ -1,4 +1,4 @@
-As Dr. Dave Akin's core robot software lead, I lived in the 
+As Dr. Dave Akin's core robot software lead, I lived in
 the weeds of constrained, performant software development. 
 The University of Maryland's Space Systems Lab
 ([SSL](https://ssl.umd.edu)) develops and maintains an 8DOF serial manipulator 
