@@ -1,6 +1,0 @@
-I will continue to learn about topics in modern astrophysics by reading
-[`astrobites`'](https://astrobites.org) paper summaries, the 
-Simons Foundation's [Quanta Magazine](https://www.quantamagazine.org/tag/astrophysics),
-Dr. Bovy's galactic dynamics [textbook](https://galaxiesbook.org), and the 
-[Big Orange Book](https://www.cambridge.org/highereducation/books/an-introduction-to-modern-astrophysics/140DDF8A480C3841DCCD76D66984D858#overview).
-As I read, I look forward to exploring more concepts through computation.

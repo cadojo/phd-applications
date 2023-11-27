@@ -1,4 +1,0 @@
-Computation links my graduate astrodynamics research, my experience writing 
-performant `C++` for dexterous manipulators, and my simulation studies at NASA.
-I believe these skills will translate productively to computational astrophysics
-research. Thank you for your time and consideration.

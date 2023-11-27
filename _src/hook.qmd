@@ -1,8 +1,0 @@
-My first set of simulation results at NASA
-were initially puzzling. Unexpected bifurcations had 
-emerged from the dispersed vehicle trajectories, and with hundreds 
-of models by thousands of engineers integrated into the code,
-I was unsure where to begin my investigation. I soon
-learned to pull hints from (internal) flight dynamics reports,
-and use linear & nonlinear analysis methods to find the models 
-responsible for the macro-dynamical effects.

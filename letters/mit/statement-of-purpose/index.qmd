@@ -5,65 +5,72 @@ description: MIT Department of Physics
 
 # Introduction
 
-{{< include /_src/hook.qmd >}}
+{{< include /_src/introduction.md >}}
 
-As an aspiring computational scientist, I hope to use dynamical
-analysis techniques to explain the processes behind galactic dynamics, the 
-universe's large scale structure, and stellar formation. 
-I am excited to apply for the opportunity to learn from leaders in the 
-field of astrophysics at MIT's Department of Physics.
-I hope to be considered for graduate advisement by 
-[Dr. Vogelsberger](https://physics.mit.edu/faculty/mark-vogelsberger/), 
-[Dr. Necib](https://physics.mit.edu/faculty/lina-necib/), and 
-[Dr. Frebel](https://physics.mit.edu/faculty/anna-frebel/). 
+Cosmological simulations produce domain-specific results, but their
+development demands expertise across many computational and scientific
+disciplines. With cultivated expertise in computational labs, and
+scientific research teams, MIT is uniquely prepared to drive this moment
+in astronomy and train the next generation of astrophysicists. I hope
+you will consider me for admission to this training as part of the MIT
+Department of Physics' Doctoral Program. My experience across multiple
+disciplines, including scientific software development and nonlinear
+dynamics, has prepared me for the interdisciplinary work of
+computational astrophysics research.
 
-{{< include /_src/introduction.qmd >}}
+# Robotics Research
 
-# Research Experience
+{{< include /_src/robotics.md >}}
 
-{{< include /_src/research-experience.qmd >}}
+# Dynamics Research
+
+{{< include /_src/dynamics.md >}}
+
+{{< pagebreak >}}
 
 # Scientific Computing
 
-{{< include /_src/scientific-computing.qmd >}}
+{{< include /_src/computing.md >}}
 
 # Research Aspirations
 
-I believe that my simulation studies at NASA echo MIT's massive 
-astrophysical simulation projects, i.e. [`IllustrisTNG`](https://www.tng-project.org).
-While different in scope and purpose, both aim to study emergent dynamical 
-consequences of known or hypothesized physical laws. At NASA, I frequently change specific
-dynamical models to determine their effect on simulated vehicle trajectories. 
-I have been encouraged to find similar methods used in astrophysics research,
-such as Josh Borrow's [characterization](https://arxiv.org/pdf/2212.03255.pdf) of the 
-impact of the epoch of reionization on simulated galactic formation. As an astrophysics 
-student, I hope to discuss similar such studies with my advisor, and work to characterize 
-the sensitivity of astrophysical phenomena to other categories of dynamics, i.e. 
-further quantifying galaxy formation's sensitivity to rates of stellar formation and 
-$\text{Lyman-}\alpha$ radiation dynamics. 
+I believe that my simulation studies at NASA echo MIT's massive
+astrophysical simulation projects, i.e.
+[`IllustrisTNG`](https://www.tng-project.org). While different in scope
+and purpose, both aim to study emergent dynamical consequences of known
+or hypothesized physical laws. At NASA, I frequently change specific
+dynamical models to determine their effect on simulated vehicle
+trajectories. I have been encouraged to find similar methods used in
+astrophysics research, such as Dr. Josh Borrow's
+[characterization](https://arxiv.org/pdf/2212.03255.pdf) of the impact
+of the epoch of reionization on simulated galactic formation. As an
+astrophysics student, I hope to discuss similar such studies with my
+advisor, and work to characterize the sensitivity of astrophysical
+phenomena to other categories of dynamics, i.e. further quantifying
+galaxy formation's sensitivity to rates of stellar formation and
+$\text{Lyman-}\alpha$ radiation dynamics.
 
-In my view, cosmological & galactic simulation codes have two distinct roles: 
-fast implementations for research, and convenient interfaces for education. 
-Fitting my graduate astrodynamics coursework into convenient open source software 
-was an incredibly productive educational exercise, and I plan to similarly 
-explore my astrophysics coursework through software. When appropriate, I hope to publish
-astrophysics codes to help undergraduate and early-graduate students learn 
-foundational concepts through computational exploration. Julia, and its package ecosystem,
-provide excellent tools for such a computational playground. MIT's 
-[Julia Lab](https://julia.mit.edu) is revolutionizing scientific computing, and I am 
-interested in applying their novel codes to astrophysical contexts. Julia's ease of 
-expression, in combination with [Dr. Rackauckas'](https://chrisrackauckas.com) 
-surrogate modeling & differentiable simulation codes, may allow for faster 
-cosmological & galactic model exploration.
-If an advisor found similar ideas promising, I would welcome such 
-interdisciplinary research opportunities. I have been delighted to find astrophysics
-research methods which align with my technical skill set: dynamical analysis and 
-scientific computing. I look forward to learning more about our universe, and growing
-new technical skills as a scientist.
+In my view, cosmological & galactic simulation codes have two distinct
+roles: fast implementations for research, and convenient interfaces for
+education. Fitting my graduate astrodynamics coursework into convenient
+open source software was an incredibly productive educational exercise,
+and I plan to similarly explore my astrophysics coursework through
+software. When appropriate, I hope to publish astrophysics codes to help
+undergraduate and early-graduate students learn foundational concepts
+through computational exploration. Julia, and its package ecosystem,
+provide excellent tools for such a computational playground. MIT's
+[Julia Lab](https://julia.mit.edu) is revolutionizing scientific
+computing, and I am interested in applying their novel codes to
+astrophysical contexts. Julia's ease of expression, in combination with
+[Dr. Rackauckas'](https://chrisrackauckas.com) surrogate modeling &
+differentiable simulation codes, may allow for faster cosmological &
+galactic model exploration. If an advisor found similar ideas promising,
+I would welcome such interdisciplinary research opportunities. I have
+been delighted to find astrophysics research methods which align with my
+technical skill set: dynamical analysis and scientific computing. I look
+forward to learning more about our universe, and growing new technical
+skills as a scientist.
 
 # Future Plans
 
-{{< include /_src/future-plans.qmd >}}
-
-I hope I have the opportunity to learn from MIT's excellent instructors and researchers.
-Thank you for your time and consideration.
+{{< include /_src/future.md >}}

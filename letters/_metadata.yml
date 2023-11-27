@@ -2,7 +2,7 @@ author:
   - name: Joseph D Carpinelli
     email: joey@carpinelli.email
 
-program: PhD Program
+program: Doctoral Program
 term: Fall 2024
 
 output-file: "Carpinelli — Statement of Purpose"
@@ -27,7 +27,7 @@ format:
         \begin{multicols}{2}
     include-after-body: 
       text: |
-        \clearpage\end{multicols}%
+        \end{multicols}
     include-in-header: 
       text: |
         \usepackage{titling}
@@ -45,7 +45,7 @@ format:
         \let\builtinhref\href
         \renewcommand{\href}[2]{\builtinhref{#1}{\bfseries#2}}
 
-        \titleformat{\section}{\Large\bfseries\scshape\color{PaleGreen4!75!black}}{}{0cm}{}
+        \titleformat{\section}{\Large\flushleft\bfseries\scshape\color{PaleGreen4!75!black}}{}{0cm}{}
         \titlespacing\section{0pt}{0.25\baselineskip plus 2pt minus 2pt}{0.25\baselineskip plus 2pt minus 2pt}
 
         \setlength{\parskip}{0.5\baselineskip}
