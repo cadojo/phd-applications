@@ -15,12 +15,12 @@ As a flight dynamics engineer, I was primarily responsible for
 characterizing and improving integrated spacecraft performance with
 numerical simulations. This work required all relevant dynamical effects
 to be modeled, including flexible structure & separation dynamics,
-propellant slosh, and sensor noise. I routinely tweaked dynamical
+propellant slosh, and sensor noise. I routinely modified dynamical
 models, and executed tens of thousands of Monte Carlo simulations to
 determine the vehicle performance's sensitivity. I found talent in this
-work; after applying this approach to control parameter tuning efforts,
+work; after applying the same approach to control parameter tuning efforts,
 I delivered parameter values which substantially improved vehicle
-performance, and documented the emergent dynamical effects with more
+performance, and documented the macro-dynamical effects with more
 than 150 pages of technical reports.
 
 ```{=html}
