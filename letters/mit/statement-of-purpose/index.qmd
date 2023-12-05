@@ -3,11 +3,11 @@ title: Statement of Purpose
 description: MIT Department of Physics
 ---
 
-# Introduction
+# Statement Overview
 
 {{< include /_src/introduction.md >}}
 
-Cosmological simulations produce domain-specific results, but their
+Astrophysical simulations produce domain-specific results, but their
 development demands expertise across many computational and scientific
 disciplines. With cultivated expertise in computational labs, and
 scientific research teams, MIT is uniquely prepared to drive this moment
@@ -28,7 +28,7 @@ computational astrophysics research.
 
 {{< pagebreak >}}
 
-# Scientific Computing
+# Numerical Simulations
 
 {{< include /_src/computing.md >}}
 
@@ -74,3 +74,5 @@ skills as a scientist.
 # Future Plans
 
 {{< include /_src/future.md >}}
+
+{{< pagebreak >}}
