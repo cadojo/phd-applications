@@ -22,12 +22,6 @@ format:
       - margin=1in
       - nohead
       - nomarginpar
-    include-before-body: 
-      text: |
-        \begin{multicols}{2}
-    include-after-body: 
-      text: |
-        \end{multicols}
     include-in-header: 
       text: |
         \usepackage{titling}

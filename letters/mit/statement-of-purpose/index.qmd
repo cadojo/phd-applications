@@ -1,6 +1,13 @@
 ---
 title: Statement of Purpose
 description: MIT Department of Physics
+
+format:
+    pdf:
+        include-before-body: 
+          text: \begin{multicols}{2}
+        include-after-body: 
+          text: \end{multicols}
 ---
 
 # Summary of Objectives
