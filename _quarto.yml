@@ -8,7 +8,7 @@ website:
   favicon: images/manifolds-seaborn_colorblind.png
   navbar: 
     right: 
-      - text: Thank you!
+      - text: ""
 
 format:
   html:

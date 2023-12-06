@@ -17,11 +17,10 @@ numerical simulations. This work required all relevant dynamical effects
 to be modeled, including flexible structure & separation dynamics,
 propellant slosh, and sensor noise. I routinely modified dynamical
 models, and executed tens of thousands of Monte Carlo simulations to
-determine the vehicle performance's sensitivity. I found talent in this
-work; after applying the same approach to control parameter tuning efforts,
-I delivered parameter values which substantially improved vehicle
-performance, and documented the macro-dynamical effects with more
-than 150 pages of technical reports.
+determine the vehicle performance's sensitivity; one such simulation study
+found control parameter values which substantially improved vehicle
+performance. I independently documented the new parameters' macro-dynamical
+effects with more than 150 pages of technical reports.
 
 ```{=html}
 `<!--
