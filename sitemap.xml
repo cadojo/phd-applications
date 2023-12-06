@@ -2,14 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>phd.loopy.codes/index.html</loc>
-    <lastmod>2023-11-28T23:45:59.660Z</lastmod>
+    <lastmod>2023-12-06T03:19:56.626Z</lastmod>
+  </url>
+  <url>
+    <loc>phd.loopy.codes/letters/mit/personal-statement/index.html</loc>
+    <lastmod>2023-12-05T06:20:52.885Z</lastmod>
+  </url>
+  <url>
+    <loc>phd.loopy.codes/letters/uw/index.html</loc>
+    <lastmod>2023-12-05T16:08:56.414Z</lastmod>
+  </url>
+  <url>
+    <loc>phd.loopy.codes/letters/uva/index.html</loc>
+    <lastmod>2023-12-05T16:08:21.688Z</lastmod>
   </url>
   <url>
     <loc>phd.loopy.codes/letters/mit/statement-of-purpose/index.html</loc>
     <lastmod>2023-12-05T06:19:37.749Z</lastmod>
   </url>
   <url>
-    <loc>phd.loopy.codes/letters/mit/personal-statement/index.html</loc>
-    <lastmod>2023-12-05T06:20:52.885Z</lastmod>
+    <loc>phd.loopy.codes/letters/harvard/index.html</loc>
+    <lastmod>2023-12-05T16:08:11.585Z</lastmod>
   </url>
 </urlset>

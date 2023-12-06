@@ -2,8 +2,11 @@
   {
     "listing": "/index.html",
     "items": [
-      "/letters/mit/statement-of-purpose/index.html",
-      "/letters/mit/personal-statement/index.html"
+      "/letters/uw/index.html",
+      "/letters/uva/index.html",
+      "/letters/harvard/index.html",
+      "/letters/mit/personal-statement/index.html",
+      "/letters/mit/statement-of-purpose/index.html"
     ]
   }
 ]
