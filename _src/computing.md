@@ -6,8 +6,8 @@ smaller dynamical systems' structure and solutions. I am proud to have
 brought several astrophysical models into Julia's ecosystem with
 [`AstrodynamicalModels.jl`](https://github.com/cadojo/AstrodynamicalModels.jl)
 and
-[`GalacticPotentials.jl`](https://github.com/cadojo/GalacticPotentials.jl);
-after professionally developing similar capabilities for the Artemis
+[`GalacticPotentials.jl`](https://github.com/cadojo/GalacticPotentials.jl).
+After professionally developing similar capabilities for the Artemis
 Program, I received a Superior Achievement Award from the NASA Johnson
 Space Center Director.
 

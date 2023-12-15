@@ -54,14 +54,14 @@ research, such as Dr. Kannan's
 [characterization](https://ui.adsabs.harvard.edu/abs/2021MNRAS.503..336K/abstract)
 of stellar feedback's impact on the rate of galactic dust ejection
 during his post-doctorate tenure at Harvard. I hope to discuss similar
-such studies with my advisor, and quantify other dynamical
+such studies with my advisor, and quantify the effects of other dynamical
 modes, i.e. galaxy evolution's sensitivity to radiation pressure and
 stellar winds, gas flows, nearby galaxy clusters, and the epoch of
 reionization. I am similarly excited by the opportunity to contribute to
-Dr. MacLeod's models of stellar formation.
+Dr. Chen's models of the early universe.
 
-I am also interested in exploring novel computational methods to advance the 
-scalability of modern astrophysical simulations, such as the sub-grid and model 
+I am also interested in exploring how novel computational methods may advance 
+modern astrophysical simulations, such as the sub-grid and model 
 reduction methods developed within the [Learning the Universe](https://www.learning-the-universe.org)
 collaboration. Many scientific machine learning tools are being developed within
 the Julia Programming Language community. These tools helped to propel my 
@@ -71,10 +71,10 @@ freely available codes with ITC tools.
 
 # Future Aspirations
 
-With leaders in computational research, physics, mathematics, and other
-technical fields, Harvard is uniquely suited to drive this moment in
-astronomy. I hope to have the opportunity to learn from this expertise
-as a Doctoral student in Harvard's Department of Astronomy.
+With leaders in computational research, astronomy, mathematics, 
+and many other technical fields, Harvard is uniquely suited to drive this 
+interdisciplinary moment in astronomy. I hope to have the opportunity to learn 
+from this expertise as a PhD student in Harvard's Department of Astronomy.
 Thank you for your consideration.
 
 {{< pagebreak >}}

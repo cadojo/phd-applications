@@ -4,7 +4,8 @@ methods. My Interplanetary Navigation & Guidance term project replicated
 halo orbit and invariant manifold solvers, as summarized by Megan Rund's
 [thesis](https://digitalcommons.calpoly.edu/theses/1853/). Multiple
 differential correction flavors are documented in literature, but I
-found no guidance for algorithm selection. My final paper mapped desired
+found no guidance for algorithm selection. My final
+[paper](https://github.com/cadojo/CR3BP-Manifold-Research/blob/main/papers/manifold-transfers/tex/Carpinelli_Manifold_Transfers.pdf) mapped desired
 orbit characteristics to compatible solvers, announced several
 open-source Julia
 [packages](https://github.com/cadojo/GeneralAstrodynamics.jl), and

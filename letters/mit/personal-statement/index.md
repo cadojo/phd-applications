@@ -43,7 +43,7 @@ submitted for publication.
 # Open Source Software
 
 I have released over one dozen open-source scientific software packages. I am
-particularly active in the
+particularly active in the Julia Programming Language community.
 All are hosted on my GitHub profile, [`@cadojo`](https://github.com/cadojo).
 My personal website, [`loopy.codes`](https://loopy.codes/packages), lists and
 summarizes each open-source project.
