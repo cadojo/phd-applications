@@ -8,9 +8,9 @@
 
 <meta name="author" content="Joseph D Carpinelli">
 <meta name="dcterms.date" content="2023-12-14">
-<meta name="description" content="MIT Department of Physics">
+<meta name="description" content="Harvard Department of Astronomy">
 
-<title>PhD Application Letters - Personal Statement</title>
+<title>PhD Application Letters - Statement of Purpose</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -54,8 +54,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../../../formatting/styles.css">
 </head>
@@ -92,7 +90,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#publication-history" id="toc-publication-history" class="nav-link active" data-scroll-target="#publication-history">Publication History</a></li>
+  <li><a href="#summary-of-objectives" id="toc-summary-of-objectives" class="nav-link active" data-scroll-target="#summary-of-objectives">Summary of Objectives</a></li>
+  <li><a href="#robotics-research" id="toc-robotics-research" class="nav-link" data-scroll-target="#robotics-research">Robotics Research</a></li>
+  <li><a href="#dynamics-research" id="toc-dynamics-research" class="nav-link" data-scroll-target="#dynamics-research">Dynamics Research</a></li>
+  <li><a href="#numerical-simulations" id="toc-numerical-simulations" class="nav-link" data-scroll-target="#numerical-simulations">Numerical Simulations</a></li>
+  <li><a href="#research-aspirations" id="toc-research-aspirations" class="nav-link" data-scroll-target="#research-aspirations">Research Aspirations</a></li>
+  <li><a href="#future-aspirations" id="toc-future-aspirations" class="nav-link" data-scroll-target="#future-aspirations">Future Aspirations</a></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="Carpinelli —&nbsp;Statement of Purpose.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="Carpinelli —&nbsp;Statement of Purpose.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
     </div>
@@ -101,12 +104,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Personal Statement</h1>
+<h1 class="title">Statement of Purpose</h1>
 </div>
 
 <div>
   <div class="description">
-    MIT Department of Physics
+    Harvard Department of Astronomy
   </div>
 </div>
 
@@ -133,11 +136,35 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="publication-history" class="level1">
-<h1>Publication History</h1>
-<p>As a graduate aerospace engineering student, I wrote two academic papers which are pending publication: a paper on robot kinematics solvers, and a paper on differential correction methods in three-body astrodynamics contexts.</p>
-<p>As a graduate student researcher in the Space Systems Lab, I developed novel code generation tools which produced analytical Jacobian and forward-kinematics solutions for lab robots. I presented these codes in an academic paper, along with benchmarks showing a <span class="math inline">\(2\times\)</span> performance improvement relative to standard iterative solvers for low-DOF arms. I worked with my advisor, Dr.&nbsp;Dave Akin, to submit the paper for consideration for an upcoming AIAA Conference. We withdrew the paper after the research funding export control review process passed the conference submission deadline. I believe I am unable to share the paper outside of the University of Maryland Department of Aerospace Engineering until it is reviewed for potential export-controlled information.</p>
-<p>As a graduate astrodynamics (Interplanetary Navigation &amp; Guidance) student, I replicated elements of Megan Rund’s <a href="https://digitalcommons.calpoly.edu/theses/1853/">thesis</a> on manifold-based interplanetary transfer designs within the Circular Restricted Three Body Problem. Specifically, I implemented a differential correction algorithm for finding periodic orbits within the Circular Restricted Three Body Problem, and I computed manifolds about halo orbits for low-cost interplanetary transfer designs; a bug in the manifold computations was corrected post-graduation. After finding three flavors of the same differential correction algorithm in literature — each flavor used different state variables for the correction term — I presented a novel decision tree in my final term paper. This decision tree provided guidance for selecting each particular algorithmic flavor, depending on the desired halo orbit characteristics. This paper is publicly available on GitHub. Due to my employment with the federal government, the paper must be reviewed by my employer before it can be submitted for publication.</p>
+<section id="summary-of-objectives" class="level1">
+<h1>Summary of Objectives</h1>
+<p>My first simulation study at NASA’s Flight Sciences Lab produced puzzling results. Unexpected bifurcations had emerged in the dispersed spacecraft trajectories, and with hundreds of models integrated by thousands of engineers, the cause was unclear. I have since learned to consult previous studies, and isolate models to explain emergent dynamical effects. Now, I hope to design and execute large-scale simulations to explain and predict observations of galaxy &amp; stellar evolution, the universe’s large-scale structure, and other astrophysical phenomena.</p>
+<p>Astrophysical simulations produce domain-specific results, but their development demands expertise across many computational and scientific disciplines. With cultivated expertise in computational astrophysics, including within the <a href="https://www.cfa.harvard.edu/people/institute-theory-and-computation">ITC</a>, Harvard is uniquely prepared to drive this moment in astronomy and train the next generation of astrophysicists. I hope you will consider me for admission to this training as part of the Harvard Department of Astronomy’s Doctoral Program. My experience across multiple disciplines, including scientific software development and nonlinear dynamics, has prepared me for the interdisciplinary work of computational astrophysics research.</p>
+</section>
+<section id="robotics-research" class="level1">
+<h1>Robotics Research</h1>
+<p>I led software development in Dr.&nbsp;Dave Akin’s Space Systems Lab (SSL) for four years cumulatively as an undergraduate student, and as a graduate Dean’s Fellowship recipient and research assistant. SSL’s primary application, an 8DOF dexterous manipulator known as Ranger, required consistently fast and precise control loops. As I developed kinematic solvers and Cartesian controllers for Ranger, I learned techniques for improving mathematical software: parallelism for reducing jitter, in-place calculations for avoiding allocation, and careful benchmark design for algorithm selection. I presented benchmarks for one such selection in a research paper: analytical Jacobian codes, generated with my personal contributions to Julia’s <code>Symbolics.jl</code>, which halved computation time relative to iterative methods. After applying these techniques, Ranger successfully completed spacecraft manipulation demos, and I developed fluency in scientific software development.</p>
+</section>
+<section id="dynamics-research" class="level1">
+<h1>Dynamics Research</h1>
+<p>I had always enjoyed courses related to dynamical systems, but I thrived when my graduate astrodynamics coursework encouraged computational methods. My Interplanetary Navigation &amp; Guidance term project replicated halo orbit and invariant manifold solvers, as summarized by Megan Rund’s <a href="https://digitalcommons.calpoly.edu/theses/1853/">thesis</a>. Multiple differential correction flavors are documented in literature, but I found no guidance for algorithm selection. My final paper mapped desired orbit characteristics to compatible solvers, announced several open-source Julia <a href="https://github.com/cadojo/GeneralAstrodynamics.jl">packages</a>, and presented over 130k <a href="https://github.com/cadojo/CR3BP-Manifold-Research">initial conditions</a> for periodic orbits. I was thrilled to find true low-energy trajectories throughout our solar system with laptop-scale computation. After presenting this work at <a href="https://youtu.be/WnvKaUsGv8w?si=GaO9QXEtBId9USVm">JuliaCon 2021</a>, I was invited to join the <code>JuliaSpace</code> organization to collaborate with other astrodynamics researchers across the world, including Germany and Japan.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="numerical-simulations" class="level1">
+<h1>Numerical Simulations</h1>
+<p>As my engineering research and professional interests shifted toward nonlinear dynamics, computation quickly became my most productive tool. <a href="https://julialang.org">Julia’s</a> open-source modeling, simulation, and symbolic manipulation packages were particularly helpful for exploring smaller dynamical systems’ structure and solutions. I am proud to have brought several astrophysical models into Julia’s ecosystem with <a href="https://github.com/cadojo/AstrodynamicalModels.jl"><code>AstrodynamicalModels.jl</code></a> and <a href="https://github.com/cadojo/GalacticPotentials.jl"><code>GalacticPotentials.jl</code></a>; after professionally developing similar capabilities for the Artemis Program, I received a Superior Achievement Award from the NASA Johnson Space Center Director.</p>
+<p>As a flight dynamics engineer, I have characterized and improved integrated spacecraft performance with numerical simulations. These simulations modeled all known dynamical effects, including flexible structure &amp; separation dynamics, propellant slosh, and sensor noise. I routinely executed tens of thousands of Monte Carlo simulations to determine the vehicle performance’s sensitivity to individually modified models. One such study found control parameter values which substantially improved vehicle performance; I independently documented the new parameters’ macro-dynamical effects with more than 150 pages of technical reports.</p>
+</section>
+<section id="research-aspirations" class="level1">
+<h1>Research Aspirations</h1>
+<p>After three years at NASA, I have come to understand the space industry’s shrinking — and astronomy’s growing — need for computational methods. Astronomers’ social media posts and popular science literature have long fueled my interested in space science, so I have been thrilled to learn that my technical skill-set can serve computational astronomy &amp; astrophysics research.</p>
+<p>My flight dynamics simulations within NASA echo elements of Dr.&nbsp;Hernquist’s &amp; Dr.&nbsp;Eisenstein’s massive <a href="https://www.tng-project.org">simulation</a> projects: both study macro-dynamical consequences of known or hypothesized physical laws. After conducting dynamical sensitivity studies as an engineer, I have been encouraged to find similar methods used in astrophysics research, such as Dr.&nbsp;Kannan’s <a href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.503..336K/abstract">characterization</a> of stellar feedback’s impact on the rate of galactic dust ejection during his post-doctorate tenure at Harvard. I hope to discuss similar such studies with my advisor, and quantify other dynamical modes, i.e.&nbsp;galaxy evolution’s sensitivity to radiation pressure and stellar winds, gas flows, nearby galaxy clusters, and the epoch of reionization. I am similarly excited by the opportunity to contribute to Dr.&nbsp;MacLeod’s models of stellar formation.</p>
+<p>I am also interested in exploring novel computational methods to advance the scalability of modern astrophysical simulations, such as the sub-grid and model reduction methods developed within the <a href="https://www.learning-the-universe.org">Learning the Universe</a> collaboration. Many scientific machine learning tools are being developed within the Julia Programming Language community. These tools helped to propel my graduate astrodynamics &amp; robotics research. If my advisor found such approaches promising for astronomy, I would welcome opportunities to improve and integrate freely available codes with ITC tools.</p>
+</section>
+<section id="future-aspirations" class="level1">
+<h1>Future Aspirations</h1>
+<p>With leaders in computational research, physics, mathematics, and other technical fields, Harvard is uniquely suited to drive this moment in astronomy. I hope to have the opportunity to learn from this expertise as a Doctoral student in Harvard’s Department of Astronomy. Thank you for your consideration.</p>
+<div style="page-break-after: always;"></div>
 
 
 </section>

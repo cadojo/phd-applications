@@ -2,11 +2,10 @@
   {
     "listing": "/index.html",
     "items": [
-      "/letters/uw/index.html",
-      "/letters/uva/index.html",
-      "/letters/harvard/index.html",
-      "/letters/mit/personal-statement/index.html",
-      "/letters/mit/statement-of-purpose/index.html"
+      "/letters/uw/statement-of-purpose/index.html",
+      "/letters/harvard/statement-of-purpose/index.html",
+      "/letters/mit/statement-of-purpose/index.html",
+      "/letters/mit/personal-statement/Carpinelli — Personal Statement.html"
     ]
   }
 ]
