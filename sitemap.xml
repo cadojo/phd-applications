@@ -2,22 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>phd.loopy.codes/index.html</loc>
-    <lastmod>2023-12-15T03:27:49.748Z</lastmod>
-  </url>
-  <url>
-    <loc>phd.loopy.codes/letters/mit/personal-statement/Carpinelli — Personal Statement.html</loc>
-    <lastmod>2023-12-15T03:27:41.196Z</lastmod>
-  </url>
-  <url>
-    <loc>phd.loopy.codes/letters/uw/statement-of-purpose/index.html</loc>
-    <lastmod>2023-12-15T03:27:32.479Z</lastmod>
-  </url>
-  <url>
-    <loc>phd.loopy.codes/letters/mit/statement-of-purpose/index.html</loc>
-    <lastmod>2023-12-15T03:27:36.954Z</lastmod>
+    <lastmod>2023-12-15T20:22:42.720Z</lastmod>
   </url>
   <url>
     <loc>phd.loopy.codes/letters/harvard/statement-of-purpose/index.html</loc>
-    <lastmod>2023-12-15T03:27:45.785Z</lastmod>
+    <lastmod>2023-12-15T20:22:34.894Z</lastmod>
+  </url>
+  <url>
+    <loc>phd.loopy.codes/letters/mit/statement-of-purpose/index.html</loc>
+    <lastmod>2023-12-15T20:22:26.294Z</lastmod>
+  </url>
+  <url>
+    <loc>phd.loopy.codes/letters/uw/statement-of-purpose/index.html</loc>
+    <lastmod>2023-12-15T20:22:21.685Z</lastmod>
+  </url>
+  <url>
+    <loc>phd.loopy.codes/letters/mit/personal-statement/Carpinelli — Personal Statement.html</loc>
+    <lastmod>2023-12-15T20:22:30.453Z</lastmod>
+  </url>
+  <url>
+    <loc>phd.loopy.codes/letters/harvard/personal-statement/Carpinelli — Personal Statement.html</loc>
+    <lastmod>2023-12-15T20:22:39.049Z</lastmod>
   </url>
 </urlset>
