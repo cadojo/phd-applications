@@ -9,11 +9,11 @@ and
 [`GalacticPotentials.jl`](https://github.com/cadojo/GalacticPotentials.jl);
 after professionally developing similar capabilities for the Artemis
 Program, I received a Superior Achievement Award from the NASA Johnson
-Space Center (JSC) Director.
+Space Center Director.
 
-As a flight dynamics engineer, I was primarily responsible for
-characterizing and improving integrated spacecraft performance with
-numerical simulations. These simulations modeled all known dynamical effects,
+As a flight dynamics engineer, I have characterized and improved
+integrated spacecraft performance with numerical simulations.
+These simulations modeled all known dynamical effects,
 including flexible structure & separation dynamics, propellant slosh, and sensor
 noise. I routinely executed tens of thousands of Monte Carlo simulations to
 determine the vehicle performance's sensitivity to individually modified models.

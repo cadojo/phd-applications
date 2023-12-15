@@ -17,8 +17,9 @@ format:
 
 Astrophysical simulations produce domain-specific results, but their
 development demands expertise across many computational and scientific
-disciplines. With cultivated expertise in computational labs, and
-scientific research teams, Harvard is uniquely prepared to drive this
+disciplines. With cultivated expertise in computational astrophysics, 
+including within the [ITC](https://www.cfa.harvard.edu/people/institute-theory-and-computation), 
+Harvard is uniquely prepared to drive this
 moment in astronomy and train the next generation of astrophysicists. I
 hope you will consider me for admission to this training as part of the
 Harvard Department of Astronomy's Doctoral Program. My experience across
@@ -44,35 +45,36 @@ computational astrophysics research.
 
 {{< include /_src/astronomy.md >}}
 
-NASA's flight dynamics simulations echo elements of Dr. Hernquist's
-massive astrophysical [simulations](https://www.tng-project.org); both
+My flight dynamics simulations within NASA echo elements of Dr. Hernquist's &
+Dr. Eisenstein's massive [simulation](https://www.tng-project.org) projects: both
 study macro-dynamical consequences of known or hypothesized physical
 laws. After conducting dynamical sensitivity studies as an engineer, I
 have been encouraged to find similar methods used in astrophysics
-research, such as Dr. Kannan's
+research, such as Dr. Kannan's 
 [characterization](https://ui.adsabs.harvard.edu/abs/2021MNRAS.503..336K/abstract)
-of stellar winds' impact on the rate of galactic dust ejection during
-his post-doctorate tenure at Harvard. I hope to discuss similar such
-studies with my advisor, and quantify the impact of other feedback
-effects, e.g. galaxy evolution's sensitivity to radiation pressure and
+of stellar feedback's impact on the rate of galactic dust ejection
+during his post-doctorate tenure at Harvard. I hope to discuss similar
+such studies with my advisor, and quantify other dynamical
+modes, i.e. galaxy evolution's sensitivity to radiation pressure and
 stellar winds, gas flows, nearby galaxy clusters, and the epoch of
 reionization. I am similarly excited by the opportunity to contribute to
 Dr. MacLeod's models of stellar formation.
 
-Harvard's position as a leader of astrophysics research is further
-strengthened by its breadth of cultivated technical expertise, including
-that within the [Julia Lab](https://julia.Harvard.edu). I am interested
-in exploring how Julia's revolutionary modeling & simulation codes may
-accelerate astrophysical simulations, and aid projects such as Dr.
-Millholland's data-driven approach to stellar formation modeling. If my
-advisor found similar ideas promising, I would welcome cross-department
-collaborations in the pursuit of novel science.
+I am also interested in exploring novel computational methods to advance the 
+scalability of modern astrophysical simulations, such as the sub-grid and model 
+reduction methods developed within the [Learning the Universe](https://www.learning-the-universe.org)
+collaboration. Many scientific machine learning tools are being developed within
+the Julia Programming Language community. These tools helped to propel my 
+graduate astrodynamics & robotics research. If my advisor found such approaches 
+promising for astronomy, I would welcome opportunities to improve and integrate 
+freely available codes with ITC tools.
 
 # Future Aspirations
 
 With leaders in computational research, physics, mathematics, and other
 technical fields, Harvard is uniquely suited to drive this moment in
-astronomy. I hope to have the opportunity to learn from this expertise.
+astronomy. I hope to have the opportunity to learn from this expertise
+as a Doctoral student in Harvard's Department of Astronomy.
 Thank you for your consideration.
 
 {{< pagebreak >}}

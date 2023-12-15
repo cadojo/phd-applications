@@ -44,7 +44,7 @@ computational astrophysics research.
 {{< include /_src/astronomy.md >}}
 
 NASA's flight dynamics simulations echo elements of Dr. Vogelsberger's
-massive astrophysical [simulations](https://www.tng-project.org); both
+massive astrophysical [simulations](https://www.tng-project.org): both
 study macro-dynamical consequences of known or hypothesized physical
 laws. After conducting dynamical sensitivity studies as an engineer, I
 have been encouraged to find similar methods used in astrophysics
@@ -52,7 +52,7 @@ research, such as Dr. Josh Borrow's
 [characterization](https://arxiv.org/pdf/2212.03255.pdf) of the impact
 of the epoch of reionization on early galaxy formation during his
 post-doctorate tenure at MIT. I hope to discuss similar such studies
-with my advisor, and quantify the impact of other feedback effects, e.g.
+with my advisor and quantify the impact of other feedback effects, e.g.
 galaxy evolution's sensitivity to radiation pressure and stellar winds,
 gas flows, galaxy clustering, and possible properties of dark matter. I
 am similarly excited by the opportunity to contribute to Dr. Necib's
@@ -61,19 +61,20 @@ structure formation.
 
 MIT's position as a leader of astrophysics research is further
 strengthened by its breadth of cultivated technical expertise, including
-that within the [Julia Lab](https://julia.mit.edu). I am interested in
-exploring how Julia's revolutionary modeling & simulation codes may
-accelerate astrophysical simulations, and aid projects such as Dr.
+within the [Julia Lab](https://julia.mit.edu). I am interested in
+exploring how Julia's revolutionary modeling and simulation codes may
+accelerate astrophysical simulations and aid projects such as Dr.
 Millholland's data-driven approach to stellar formation modeling. If my
 advisor found similar ideas promising, I would welcome cross-department
 collaborations in the pursuit of novel science.
 
 # Future Aspirations
 
-With leaders in computational research, physics, mathematics, and so many other
-technical fields, MIT is uniquely suited to drive this moment of interdiscplinary
-need in astronomy. I hope to have the opportunity to learn from this expertise
-as a graduate student in the MIT Department of Physics' Doctoral 
-Program. Thank you for your time, and your consideration.
+With leaders in computational research, physics, mathematics, and so
+many other technical fields, MIT is uniquely suited to drive this moment
+of interdiscplinary need in astronomy. I hope to have the opportunity to
+learn from this expertise as a graduate student in the MIT Department of
+Physics' Doctoral Program. Thank you for your time, and your
+consideration.
 
 {{< pagebreak >}}
