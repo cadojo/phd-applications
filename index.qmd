@@ -25,11 +25,10 @@ listing:
 Thank you for reading! The table below provides all of the letters I am writing for 
 fall 2024 astrophysics PhD programs. After my positive experiences simulating astrodynamical
 systems, and atmospheric flight dynamics, I am interested in applying computation to 
-astrophysical simulations. Between October 2023 and January 2024, I will be applying 
+astrophysical simulations. Between October 2023 and January 2024, I am applying
 to fellowships and graduate programs which emphasize computation.
 
 My resume can be found at [`resume.loopy.codes`](https://resume.loopy.codes). 
 For reference all of my statement of purpose drafts are available in the table 
 below; fields in the left-most column link to each respective letter. 
-**At this time, only [MIT's Statement of Purpose](/letters/mit/statement-of-purpose) 
-is finished**. All other letters will be completed soon. Thank you for supporting me in this career transition!
+Thank you for supporting me in this career transition!
